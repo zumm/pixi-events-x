@@ -1,6 +1,6 @@
 {
   "name": "pixi-events-x",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "sideEffects": true,
   "description": "Extended Federated Events API. Backwards compatible replacement for PixiJS Event System that supports focus and keyboard events.",
   "keywords": [
