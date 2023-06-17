@@ -46,8 +46,11 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@cspell/eslint-plugin": "^6.31.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^8.41.0",
     "husky": "^8.0.3",
+    "semantic-release": "^21.0.5",
     "typescript": "^5.0.4",
     "unbuild": "^1.2.1",
     "vitest": "^0.31.4"
