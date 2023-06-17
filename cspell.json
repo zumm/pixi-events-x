@@ -1,0 +1,19 @@
+{
+  "minWordLength": 2,
+  "dictionaryDefinitions": [{
+    "name": "pixi",
+    "path": "./cspell-pixi.txt",
+    "description": "Pixi Related Dictionary",
+    "addWords": true
+  }, {
+    "name": "workspace",
+    "path": "./cspell-workspace.txt",
+    "description": "Workspace Dictionary",
+    "addWords": true
+  }],
+  "dictionaries": ["pixi", "workspace"],
+  "useGitignore": true,
+  "ignorePaths": [
+    "**/cspell-*"
+  ]
+}

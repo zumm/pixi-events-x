@@ -1,0 +1,67 @@
+{
+  "name": "pixi-events-x",
+  "version": "0.0.0",
+  "sideEffects": true,
+  "description": "Extended Federated Events API. Backwards compatible replacement for PixiJS Event System that supports focus and keyboard events.",
+  "keywords": [
+    "PixiJS",
+    "interaction",
+    "UI",
+    "events",
+    "focus",
+    "keyboard"
+  ],
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "require": "./build/index.cjs",
+      "import": "./build/index.mjs"
+    }
+  },
+  "main": "./build/index.cjs",
+  "module": "./build/index.mjs",
+  "types": "./build/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./build/*",
+        "./*"
+      ]
+    }
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint **/*.{js,mjs,cjs,ts}",
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "test": "vitest"
+  },
+  "author": "zumm",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.0",
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@cspell/eslint-plugin": "^6.31.1",
+    "eslint": "^8.41.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.31.4"
+  },
+  "peerDependencies": {
+    "@pixi/core": "^7.2.0",
+    "@pixi/display": "^7.2.0",
+    "@pixi/events": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumm/pixi-events-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zumm/pixi-events-x/issues"
+  }
+}
